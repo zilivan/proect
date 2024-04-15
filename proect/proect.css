@@ -1,0 +1,255 @@
+/* videobooth.css */
+
+.upperMenu_mob{
+	display:inline-block;
+	
+	width: 320px;
+	height: 88px;
+	
+}
+.ic{
+	
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	
+}
+.Group{
+	display:block ;
+	float:left;
+
+	width: 96px;
+	height: 50px;
+	
+}
+.burger{
+	display:block ;
+	float:left;
+	
+}
+.divider{
+	display:block ;
+	float:left;
+	width: 2px;
+	height: 32px;
+	
+}
+.checkstatus {
+	display:block ;
+	float:right;
+}
+.repair {
+	display:block ;
+	float:right;
+}
+	
+.Title{
+	display:inline-block;
+	width: 320px;
+	height: 40px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.highlight {
+	display:block ;
+	float:left;
+	
+	width: 4px;
+	height: 40px;
+	background-color:#41F6D7;
+}
+.ligh {
+	display:block ;
+	float:left;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size:28px;
+	font-weight: bold;
+}
+.Copy{
+	display:block ;
+	background-color:#F8F8F8;
+	width: 320px;
+	
+}
+.slideMenu{
+	display:inline-block ;
+	height: 40px;
+	width: 620px;
+	margin-left: 5px;
+}
+.styled{
+display:block ;	
+float:left;
+color:#7E7E82;
+border: 2px thin  #F8F8F8; 
+border-color:#F8F8F8;
+font-size:18px;
+margin: 5px;
+padding:10px ;
+}
+.styled:nth-child(1) {
+	background-color:white;
+	border-radius: 6px;
+    border: 2px thin  aqua;
+    border-color: aqua;
+}
+.bloc{
+	display:inline-block;
+	width: 290px;
+	margin-top:20px ;
+}
+
+.tex{
+	display:block ;	
+	width: 288px;	
+	float:left;
+	margin-left: 5px;
+}
+
+.Expan1 {
+	display:block ;	
+	float:left;
+	width: 16px;
+	height: 16px;
+	margin-left:10px ;
+}
+.Read{
+	display:block ;	
+	float:left;
+	font-size:16px;
+	height: 16px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+}
+/* main content 
+div#booth {
+	margin: auto;
+	width: 1100px;
+}
+
+div#console {
+	position: relative;
+	background: url(images/videoformfactor.jpg) no-repeat top left;
+	width: 1100px;
+	height: 981px;
+	top: 0px;
+	left: 0px;
+}
+
+ video 
+div#videoDiv {
+	position: relative;
+	width: 720px;
+	height: 480px;
+	top: 180px;
+	left: 190px;
+}
+video {
+	background-color: black;
+}
+div#videoDiv canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+canvas#buffer {
+	display: none;
+}
+
+ dashboard 
+div#dashboard {
+	position: absolute;
+	top: 844px;
+	left: 130px;
+}
+
+a.effect, a.control, a.videoSelection {
+	display: block;
+	width: 64px;
+	height: 56px;
+}
+
+div#effects {
+	position: absolute;
+	background: url(images/effectbuttons.png) no-repeat top left;
+	top: 0px;
+	left: 0px;
+	width: 259px;
+	height: 56px;
+}
+a#normal {
+	position: relative;
+	width: 68px;
+	top: 0px;
+}
+a#western {
+	position: absolute;
+	width: 62px;
+	top: 0px;
+	left: 68px;
+}
+a#noir {
+	position: absolute;
+	top: 0px;
+	left: 130px;
+}
+a#scifi {
+	position: absolute;
+	top: 0px;
+	left: 194px;
+}
+
+div#controls {
+	position: absolute;
+	background: url(images/playpausemute.png) no-repeat top left;
+	top: 0px;
+	left: 350px;
+	width: 259px;
+	height: 56px;
+}
+a#play {
+	position: relative;
+	top: 0px;
+}
+a#pause {
+	position: absolute;
+	top: 0px;
+	left: 64px;
+}
+a#loop {
+	position: absolute;
+	top: 0px;
+	left: 128px;
+}
+a#mute {
+	position: absolute;
+	top: 0px;
+	left: 192px;
+}
+
+div#videoSelection {
+	position: absolute;
+	background: url(images/video1video2buttons.png) no-repeat top left;
+	top: 0px;
+	left: 700px;
+	width: 137px;
+	height: 56px;
+}
+a#video1 {
+	position: relative;
+	width: 68px;
+	top: 0px;
+}
+a#video2 {
+	position: absolute;
+	top: 0px;
+	width: 70px;
+	left: 68px;
+}
+
+a:hover {
+	cursor: pointer;
+}
+*/
