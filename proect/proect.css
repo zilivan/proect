@@ -1,11 +1,28 @@
 /* videobooth.css */
-
+/* Обычный */
+@font-face {
+	font-family: 'TTLakes';
+	font-style: normal;
+	font-weight: normal;
+	src: local('TTLakes'),
+		url(fond/TTLakes-Regular.woff) format('woff');
+		
+}
+ 
+/* Жирный */
+@font-face {
+	font-family: 'TTLakes';
+	font-style: normal;
+	font-weight: bold;
+	src: local('TTLakes'),
+		url(fond/TTLakes-Bold.woff) format('woff');		
+}
 .upperMenu_mob{
 	display:inline-block;
 	
 	width: 320px;
 	height: 88px;
-	
+	margin: 0px;
 }
 .ic{
 	
@@ -47,7 +64,7 @@
 	display:inline-block;
 	width: 320px;
 	height: 40px;
-	padding-top: 10px;
+	padding-top: 40px;
 	margin-bottom: 10px;
 }
 .highlight {
@@ -63,6 +80,7 @@
 	float:left;
 	margin-top: 5px;
 	margin-left: 5px;
+	font-family:TTLakes;
 	font-size:28px;
 	font-weight: bold;
 }
@@ -75,7 +93,7 @@
 .slideMenu{
 	display:inline-block ;
 	height: 40px;
-	width: 620px;
+	width: 315px;
 	margin-left: 5px;
 }
 .styled{
@@ -87,6 +105,15 @@ border-color:#F8F8F8;
 font-size:18px;
 margin: 5px;
 padding:10px ;
+height: 40px;
+font-family:TTLakes;
+font-size: 16px;
+}
+
+.b2{
+	width: 55px;
+	overflow: hidden;
+	margin-right: 0px;
 }
 .styled:nth-child(1) {
 	background-color:white;
@@ -102,6 +129,8 @@ padding:10px ;
 
 .tex{
 	display:block ;	
+	font-family:TTLakes;
+	font-size: 13px;
 	width: 288px;	
 	float:left;
 	margin-left: 5px;
@@ -113,16 +142,24 @@ padding:10px ;
 	width: 16px;
 	height: 16px;
 	margin-left:10px ;
+	margin-top: 10px;
 }
 .Read{
 	display:block ;	
 	float:left;
+	font-family:TTLakes;
 	font-size:16px;
 	height: 16px;
 	margin-left: 5px;
-	margin-top: 5px;
-
+	margin-top: 12px;
+	
 }
+
+
+
+
+
+
 /* main content 
 div#booth {
 	margin: auto;
