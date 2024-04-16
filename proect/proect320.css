@@ -19,10 +19,10 @@
 }
 .upperMenu_mob{
 	display:inline-block;
-	
 	width: 320px;
 	height: 88px;
 	margin: 0px;
+   
 }
 .ic{
 	
@@ -34,10 +34,9 @@
 .Group{
 	display:block ;
 	float:left;
-
 	width: 96px;
 	height: 50px;
-	
+
 }
 .burger{
 	display:block ;
@@ -48,8 +47,23 @@
 	display:block ;
 	float:left;
 	width: 2px;
-	height: 32px;
-	
+	height: 40px;
+    background-color:#F8F8F8;
+    margin-left: 25px;
+   
+    margin-top: 25px;
+}
+.lef{
+    display:none ;  
+    margin-right: 25px;
+}
+.cen{
+    display:none ;  
+    margin-right: 25px;
+}
+.rih{
+    display:block ;  
+    margin-right: 0px; 
 }
 .checkstatus {
 	display:block ;
@@ -59,7 +73,23 @@
 	display:block ;
 	float:right;
 }
-	
+.menu {
+    display:none;
+    margin-left: 100px;  
+}
+.call {
+    display:block ;
+	float:left;
+}
+.chat {
+    display:block ;
+	float:left;
+}
+.profile{
+    display:block ;
+	float:left;
+}
+
 .Title{
 	display:inline-block;
 	width: 320px;
@@ -70,7 +100,6 @@
 .highlight {
 	display:block ;
 	float:left;
-	
 	width: 4px;
 	height: 40px;
 	background-color:#41F6D7;
@@ -115,6 +144,10 @@ font-size: 16px;
 	overflow: hidden;
 	margin-right: 0px;
 }
+.b3,b4,b5{
+    display:none;
+    overflow: hidden;   
+}
 .styled:nth-child(1) {
 	background-color:white;
 	border-radius: 6px;
@@ -131,9 +164,11 @@ font-size: 16px;
 	display:block ;	
 	font-family:TTLakes;
 	font-size: 13px;
+    height: 90px;
 	width: 288px;	
 	float:left;
 	margin-left: 5px;
+    overflow: hidden;
 }
 
 .Expan1 {
