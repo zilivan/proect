@@ -17,6 +17,7 @@
 	src: local('TTLakes'),
 		url(fond/TTLakes-Bold.woff) format('woff');		
 }
+
 .upperMenu_mob{
 	display:inline-block;
 	width: 768px;
@@ -155,6 +156,10 @@ font-size: 16px;
     border: 2px thin  aqua;
     border-color: aqua;
 }
+.bloctexpic{
+	display:grid;	
+	grid-template-columns: 360px 400px;
+}
 .bloc{
 	display:inline-block;
 	width: 290px;
@@ -164,11 +169,12 @@ font-size: 16px;
 .tex{
 	display:block ;	
 	font-family:TTLakes;
-	font-size: 13px;
-    height: 90px;
+	font-size: 14px;
+    height: 160px;
 	width: 288px;	
 	float:left;
 	margin-left: 5px;
+	
     overflow: hidden;
 }
 
@@ -184,14 +190,19 @@ font-size: 16px;
 	display:block ;	
 	float:left;
 	font-family:TTLakes;
-	font-size:16px;
-	height: 16px;
+	font-size:17px;
+	height: 60px;
 	margin-left: 5px;
 	margin-top: 12px;
+}
+.Picture{
+	width: 360px;
+	height: 248px;
 	
 }
-
-
+.Picture img{
+	width: 100%;	
+}
 
 
 
